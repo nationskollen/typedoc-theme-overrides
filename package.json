@@ -1,0 +1,16 @@
+{
+    "name": "@dsp-krabby/typedoc-theme-overrides",
+    "version": "1.0.0",
+    "description": "Nationskollen TypeDoc theme overrides",
+    "repository": "git://github.com/dsp-krabby/typedoc-theme-overrides.git",
+    "author": "Team Krabby",
+    "license": "MIT",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/@dsp-krabby"
+    },
+    "files": [
+        "assets",
+        "layouts",
+        "partials"
+    ]
+}

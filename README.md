@@ -37,9 +37,12 @@ npm install --save @dsp-krabby/typedoc-theme-overrides
 ```
 
 ## Usage
-Set the theme and syntax highlighting theme when running typedoc:
+Set the theme and syntax highlighting theme in your typedoc config.
 
-```
-npx typedoc src/** --theme ./node_modules/@dsp-krabby/typedoc-theme-overrides
---highlightTheme github-dark
+In `typedoc.json` in your project root (same as `package.json`):
+```json
+{
+    "theme": "./node_modules/@dsp-krabby/typedoc-theme-overrides",
+    "highlightTheme": "github-dark"
+}
 ```

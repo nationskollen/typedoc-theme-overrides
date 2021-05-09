@@ -28,12 +28,12 @@ Create a new file in your home directory `~/.npmrc` containing the following:
 Create `.npmrc` in your project root (same directory as `package.json`)
 containing the following:
 ```
-@dsp-krabby:registry=https://npm.pkg.github.com/
+@nationskollen:registry=https://npm.pkg.github.com/
 ```
 
 Install the library:
 ```
-npm install --save @dsp-krabby/typedoc-theme-overrides
+npm install --save @nationskollen/typedoc-theme-overrides
 ```
 
 ## Usage
@@ -42,7 +42,7 @@ Set the theme and syntax highlighting theme in your typedoc config.
 In `typedoc.json` in your project root (same as `package.json`):
 ```json
 {
-    "theme": "./node_modules/@dsp-krabby/typedoc-theme-overrides",
+    "theme": "./node_modules/@nationskollen/typedoc-theme-overrides",
     "highlightTheme": "github-dark"
 }
 ```
